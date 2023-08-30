@@ -1,0 +1,27 @@
+{
+  "name": "tspoc",
+  "version": "1.0.0",
+  "description": "AmazonProductSearchUsingTSWIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "SAKTHI LAVANYA",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/allure-reporter": "8.15.10",
+    "@wdio/cli": "^8.15.10",
+    "@wdio/cucumber-framework": "8.15.10",
+    "@wdio/spec-reporter": "8.15.10",
+    "typescript": "5.2.2",
+    "wdio-chromedriver-service": "8.1.1",
+    "@types/webdriverio": "^5.0.0"
+  }
+}
